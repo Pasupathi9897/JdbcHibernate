@@ -22,9 +22,9 @@
   for(Exam exam:exams)
   {
   %>
-    <option value="examid"><%=exam.getEid()%></option>
+    <option value="examid"><%=exam.getExamid()%></option>
     <%
-   examid=exam.getEid();
+   examid=exam.getExamid();
   }
     %>
   </select>
