@@ -1,5 +1,5 @@
 package com.dxc.beans;
-
+//Exam beans
 public class Exam {
 
 String examid;
