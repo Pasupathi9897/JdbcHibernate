@@ -1,7 +1,7 @@
 package com.dxc.beans;
 //Exam beans
 public class Exam {
-
+//slhflh
 String examid;
 String name;
 public Exam() {
