@@ -1,5 +1,5 @@
 package com.dxc.beans;
-
+//checking
 public class Mark {
 	String examid;
 	int studentid;
