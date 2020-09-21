@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-//student beans
 public class Student implements Comparable<Student>,Serializable {
 	int studentid;
 	String name;

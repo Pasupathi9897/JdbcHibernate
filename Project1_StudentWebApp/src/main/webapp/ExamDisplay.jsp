@@ -1,6 +1,5 @@
 <%@page import="com.dxc.HibService.ExamHibService"%>
 <%@page import="com.dxc.JdbcService.ExamService"%>
-<%@page import="java.text.ParseException"%>
 <%@page import="java.sql.SQLException"%>
 <%@page import="com.dxc.beans.Exam"%>
 <%@page import="java.util.List"%>
@@ -15,10 +14,11 @@
 </head>
 <body>
 <h2>Exam DataBase</h2>
-	<table>
+	<table border="1" bgcolor="yellow" cellspacing="5" cellpadding="5">
 	<tr>
 	<th>ExamId</th>
 	<th>Name</th>
+	<th>Edit/Delete</th>
 	</tr>
 	<%
 	List<Exam> exams=new ExamHibService().findAll();
@@ -36,9 +36,11 @@
 	
 	</table>
 		<br><a href="addExam.jsp">Add New Exam</a><br><br>
+		<a href="Modules.jsp">Go back</a><br>
 	<form action="Login.jsp">
 		<input type="submit" value="Logout">
 	</form>
+	
 	
 </body>
 </html>
